@@ -1,0 +1,82 @@
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment and configuration files
+.env
+.env.example
+.env.backup
+.env.production
+
+# Composer dependencies
+/vendor
+
+# Node dependencies
+/node_modules
+
+# Ignore Laravel storage and cache files
+/public/hot
+/public/storage
+/storage/*.key
+/storage/oauth-private.key
+/storage/oauth-public.key
+/storage/framework
+/storage/logs
+/storage/debugbar
+/storage/pail
+
+# Ignore Laravel cache, logs, and sessions
+/bootstrap/cache
+
+# Ignoring compiled assets
+/public/mix-manifest.json
+/public/css
+/public/js
+/public/build
+
+# Ignore IDE and editor-specific files
+.idea/
+.vscode/
+.fleet/
+.nova/
+.zed/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore Laravel test environment
+.phpunit.cache
+.phpunit.result.cache
+phpunit.xml
+phpunit.xml.cache
+
+# Ignore coverage reports
+/coverage
+
+# Ignore Laravel Telescope logs
+/telescope
+
+# Ignore Laravel Horizon logs
+/horizon
+
+# Ignore database backups
+/database/database.sqlite
+/database/database.sqlite-journal
+
+# Ignore compiled classes and logs
+/vendor
+/node_modules
+/npm-debug.log
+/yarn-error.log
+/pnpm-debug.log
+/auth.json
+
+# Ignore Homestead and Vagrant-related files
+Homestead.json
+Homestead.yaml
+
+# Ignore temporary and personal files
+*.log
+*.cache
+*.tmp
+*.swp
+*.swo
